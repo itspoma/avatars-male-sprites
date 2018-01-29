@@ -1,0 +1,4 @@
+{
+  "extends": "./node_modules/@dicebear/avatars-webpack-config/tsconfig.json",
+  "include": ["./src/"]
+}

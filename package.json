@@ -1,0 +1,43 @@
+{
+  "name": "@dicebear/avatars-male-sprites",
+  "version": "1.0.2",
+  "description": "Male sprite collection for DiceBear Avatars",
+  "main": "lib/sprites.js",
+  "types": "lib/sprites.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prebuild": "rm -rf dist/ lib/ || true",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiceBear/avatars-male-sprites.git"
+  },
+  "keywords": [
+    "dicebear",
+    "avatars",
+    "male",
+    "svg",
+    "sprites"
+  ],
+  "author": "DiceBear <opensource@dicebear.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiceBear/avatars-male-sprites/issues"
+  },
+  "homepage": "https://github.com/DiceBear/avatars-male-sprites#readme",
+  "peerDependencies": {
+    "@dicebear/avatars": "^2.0.0"
+  },
+  "devDependencies": {
+    "@dicebear/avatars": "^2.0.0",
+    "@dicebear/avatars-webpack-config": "^2.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "files": [
+    "LICENSE",
+    "dist",
+    "lib"
+  ]
+}
