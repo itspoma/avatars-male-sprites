@@ -23,7 +23,7 @@ Our free HTTP-API is the easiest way to use this sprite collection. Just use the
 
     https://avatars.dicebear.com/v2/male/:seed.svg
 
-The value of `seed` can be anything you like.
+The value of `:seed` can be anything you like - but **don't** use any sensitive or personal data here!
 
 ### CDN
 
@@ -77,4 +77,4 @@ You can find the DiceBear Avatars documentation at [avatars.dicebear.com](https:
 
 ---
 
-_Inspired by [8biticon](https://github.com/matveyco/8biticon) (Copyright 2012 Plastic Jam - [MIT Licensed](https://github.com/matveyco/8biticon/blob/dfe624da950fb2f8c43e1151c380d333c2b12225/old_python/LICENSE))_ 
+_Inspired by [8biticon](https://github.com/matveyco/8biticon) (Copyright 2012 Plastic Jam - [MIT Licensed](https://github.com/matveyco/8biticon/blob/dfe624da950fb2f8c43e1151c380d333c2b12225/old_python/LICENSE))_
